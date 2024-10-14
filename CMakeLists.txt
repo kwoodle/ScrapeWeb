@@ -18,5 +18,3 @@ if (CURL_FOUND)
 endif (CURL_FOUND)
 
 target_link_libraries(ScrapeWeb webdriverxx ${CURL_LIBRARIES})
-add_executable(example1 example1.cpp)
-target_link_libraries(example1 webdriverxx ${CURL_LIBRARIES})
